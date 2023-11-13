@@ -1,5 +1,5 @@
 {
-  "name": "ngx-embed-video",
+  "name": "@azharrasheed/ngx-embed-video",
   "version": "1.0.0",
   "scripts": {
     "build": "ngc -p tsconfig.json",
@@ -13,12 +13,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/SamirHodzic/ngx-embed-video"
+    "url": "git+https://github.com/azharrashe3d/ngx-embed-video.git"
   },
-  "author": {
-    "name": "SamirHodzic",
-    "email": "samir.sgd@gmail.com"
-  },
+  "author": "SamirHodzic <samir.sgd@gmail.com>",
   "keywords": [
     "typescript",
     "angular",
@@ -35,7 +32,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SamirHodzic/ngx-embed-video/issues"
+    "url": "https://github.com/azharrashe3d/ngx-embed-video/issues"
   },
   "main": "./dist/index.js",
   "peerDependencies": {
@@ -72,5 +69,10 @@
   },
   "engines": {
     "node": ">=0.8.0"
+  },
+  "description": "> Get embed code for embedding youtube/vimeo/dailymotion/\\* video in websites from URL or ID in Angular 6+. > Currently supports YouTube, Vimeo and Dailymotion. Feel free to make pull request to add others!",
+  "homepage": "https://github.com/azharrashe3d/ngx-embed-video#readme",
+  "directories": {
+    "test": "tests"
   }
 }
