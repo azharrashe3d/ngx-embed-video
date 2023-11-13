@@ -1,0 +1,76 @@
+{
+  "name": "ngx-embed-video",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "ngc -p tsconfig.json",
+    "lint": "tslint --force --project tsconfig.json src/*.ts",
+    "prepublish": "tsc",
+    "tsc": "tsc",
+    "test": "karma start"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SamirHodzic/ngx-embed-video"
+  },
+  "author": {
+    "name": "SamirHodzic",
+    "email": "samir.sgd@gmail.com"
+  },
+  "keywords": [
+    "typescript",
+    "angular",
+    "angular6",
+    "ng6",
+    "ngx",
+    "embed-video",
+    "embed",
+    "typescript",
+    "youtube",
+    "vimeo",
+    "dailymotion",
+    "video"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamirHodzic/ngx-embed-video/issues"
+  },
+  "main": "./dist/index.js",
+  "peerDependencies": {
+    "@angular/core": "^6.0.0",
+    "@angular/common": "^6.0.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^12.2.17",
+    "@angular/compiler": "^12.2.17",
+    "@angular/compiler-cli": "^12.2.17",
+    "@angular/core": "^12.2.17",
+    "@angular/http": "^7.2.16",
+    "@angular/platform-browser": "^12.2.17",
+    "@angular/platform-browser-dynamic": "^12.2.17",
+    "@angular/platform-server": "^12.2.17",
+    "@types/jasmine": "^2.8.9",
+    "codelyzer": "^4.5.0",
+    "core-js": "^2.5.7",
+    "jasmine-core": "^2.99.1",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "^0.0.31",
+    "karma-webpack": "^2.0.13",
+    "rxjs": "^6.3.3",
+    "rxjs-compat": "^6.3.3",
+    "ts-helpers": "^1.1.2",
+    "ts-loader": "^2.0.3",
+    "tslint": "^5.11.0",
+    "typescript": "^2.9.2",
+    "webpack": "^2.3.1",
+    "zone.js": "^0.8.26"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
